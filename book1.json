@@ -1,0 +1,19 @@
+       [
+	{
+	"Title" : "Data Science for Business", 
+	"Authors" : "Foster Provost, Tom Fawcett", 
+    	"Year" : 2015, 
+        "Publisher" : "O'Reilly" 
+    	},
+	{
+	"Title" : "Data Science from Scratch", 
+	"Authors" : "Joel Grus", 
+    	"Year" : 2015, 
+        "Publisher" : "O'Reilly"
+	},
+	{
+	"Title" : "Data Science in R", 
+	"Authors" : "Deborah Nolan, Duncan Temple Lang", 
+    	"Year" : 2015, 
+        "Publisher" : "The R Series"
+	}]

@@ -1,0 +1,45 @@
+---
+title: "DATA-607 Week 7 Assignment"
+author: "Md Jalal Uddin"
+date: "October 15, 2016"
+output: pdf_document
+
+---
+
+
+```{r}
+#installing the packages
+install.packages("XML",repos='http://cran.wustl.edu/')
+library(XML)
+install.packages("jsonlite",repos='http://cran.wustl.edu/')
+library(jsonlite)
+
+```
+
+```{r}
+# view saved html file by using readhtmltable function
+Books_file_html <- data.frame(readHTMLTable("C:/Users/sql_ent_svc/Desktop/MSDA Assignment/DATA_607/Week_7_Assignment/Book3.html"))
+Books_file_html
+
+```
+
+```{r}
+# view saved xml file by using xmltodataframe function
+Books_file_xml <- xmlToDataFrame("C:/Users/sql_ent_svc/Desktop/MSDA Assignment/DATA_607/Week_7_Assignment/book2.xml")
+Books_file_xml
+
+#Source: http://web.mit.edu/~r/current/arch/i386_linux26/lib/R/library/XML/html/xmlToDataFrame.html
+
+```
+
+```{r}
+# view saved json file by using fromJSON function 
+Books_file_json <- data.frame(fromJSON("C:/Users/sql_ent_svc/Desktop/MSDA Assignment/DATA_607/Week_7_Assignment/book1.json", simplifyDataFrame = TRUE))
+Books_file_json 
+
+#Source:https://cran.r-project.org/web/packages/jsonlite/vignettes/json-aaquickstart.html
+
+#All of the result looks like identical to me. 
+
+```
+

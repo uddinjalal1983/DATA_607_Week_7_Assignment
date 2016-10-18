@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FavouriteBooks>
+  <BookID id="1">
+    <Title>Data Science for Business</Title>
+    <Authors>Foster Provost, Tom Fawcett</Authors>
+    <Year>2015</Year>
+    <Publisher>O'Reilly</Publisher>
+  </BookID>
+  <BookID id="2">
+    <Title>Data Science from Scratch</Title>
+    <Authors>Joel Grus</Authors>
+    <Year>2015</Year>
+    <Publisher>O'Reily</Publisher>   
+  </BookID>
+  <BookID id="3">
+    <Title>Data Science in R</Title>
+    <Authors>Deborah Nolan, Duncan Temple Lang</Authors>
+    <Year>2015</Year>
+    <Publisher>The R Series</Publisher>
+  </BookID>
+</FavouriteBooks>
